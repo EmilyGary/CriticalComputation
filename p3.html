@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emily Gary | Experimental Clock - Yoga Break</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Emily Gary</h1>
+      <ul>
+        <li>Project 1: <a href="p1.html">Lost & Found</a></li>
+        <li>Project 2: <a href="p2.html">Face Generator</a></li>
+        <li>Project: <a href="p3.html">Experimental Clock</a></li>
+        <li>Project <a href="p4.html">Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">Optical Illusion</a></li>
+        <li>Project <a href="p6.html">Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Experimental Clock - Yoga Break
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400"
+          height="400"
+          src="https://preview.p5js.org/EmilyG/embed/upIPaPPss"
+        >
+        </iframe>
+      </div>
+      <p></p>
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        This project is representative of the many ways in which we measure
+        time. I chose to represent time in terms of a sun salutation yoga
+        sequence. The clock is meant to be used as a motivator to get out of our
+        seats and move -- a reminder that is often needed in our digital world.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I experimented with a few different forms of representing time, however
+        I chose the sun salutation yoga sequence because I feel that it is a
+        nice reminder to use our bodies and practice self care, even if only for
+        a minute, as many of us spend the majority of our days sitting and
+        staring at a screen.
+      </p>
+
+      <p>
+        I began by drawing the yoga sequence on paper, and then started with a
+        basic human figure to ensure that the poses could be represented simply
+        and clearly. I kept the body height and width consistent throughout each
+        pose, and then used the hip and shoulder points as anchors to ensure
+        consistency as the frames changed. After drawing the figures in p5, I
+        added scrolling text using a time function. I selected the color scheme
+        because I wanted the visual to create a calming effect for anyone
+        following along.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        <i>Defining Variables</i>
+        In an attempt to make drawing each pose easier, I defined variables
+        using the width and height of the body as parameters. As the body needed
+        to rotate, I found that the variables became more confusing to use over
+        time. Upon reflection, it is better not to nest variables within
+        eachother because that made it harder to visualize the distance each
+        variable would offset the images.
+      </p>
+
+      <p>
+        <i>Time Functions</i>
+        In order to get the text to scroll across the screen uniformly, I
+        utilized the millisecond feature paired with a tutorial using a global
+        variable based on milliseconds (credited below.) I attempted to have the
+        drawing loop through only once until clicked, but had a harder time
+        using the timer technique with mousePressed in order to execute it. In
+        addition, I plan to add a gong sound to signal when to change poses in
+        future iterations of my experimental clock.
+      </p>
+
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        Creator: Emily Gary
+        <br />References: https://p5js.org/reference/ <br />
+        Timer Tutorial: https://editor.p5js.org/rustyrobison/sketches/OgFc7i0gu
+      </p>
+    </div>
+  </body>
+</html>
