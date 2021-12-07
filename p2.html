@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emily Gary | Project 2: Face Generator</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+     <div class="nav">
+      <h1>Emily Gary</h1>
+      <ul>
+        <li>Project 1: <a href="p1.html">Lost & Found</a></li>
+        <li>Project 2: <a href="p2.html">Face Generator</a></li>
+        <li>Project: <a href="p3.html">Experimental Clock</a></li>
+        <li>Project <a href="p4.html">Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">Optical Illusion</a></li>
+        <li>Project <a href="p6.html">Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Random Face Generator
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400"
+          height="400"
+          src="https://preview.p5js.org/EmilyG/embed/GVLDHd97a"
+        >
+        </iframe>
+      </div>
+      <p>
+        <i
+          >Try clicking the image to change the face or pressing any key to
+          change the shape or color of the shapes.
+        </i>
+      </p>
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        This project explores applications of randomization in order to generate
+        art. I chose to use a simple abstract drawing of a face with transparent
+        shapes overlayed. The aspects of the face change with each click, and
+        the shapes that are overlaid change color and position with each key
+        press.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I began first with a sketch of the faces and some potential variations
+        that could be created using randomization. I decided to create certain
+        fixed points within the sketch and use these as anchor points for
+        different aspects of the face. For example, the curvature of the nose
+        and the placement of the eye are anchored from the same position so that
+        the face maintains its basic shape. These anchor points where used for
+        the edge of the face and start of the hairline as well.
+      </p>
+
+      <p>
+        Initially, I had intended to change the curliness of the hair with each
+        newly generated face, however this required many more inflection points
+        in the curvature so I instead kept the same number of waves but make
+        them increasingly more dramatic or smooth with each randomization.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        By using a simple and open-ended shape for the face, I found that this
+        gave me a lot more room to leverage randomization throughout the piece.
+        I was able to input broader ranges of randomization and in turn get more
+        variety in each randomized face by starting with a simple shape that had
+        room to move and be altered. I also found that for generating random
+        colors, the hsb colormode provides a more aesthetically pleasing output
+        than using rgb for randomization because the colors remain in one family
+        of hues.
+      </p>
+
+      <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        Creator: Emily Gary
+        <br />References: https://p5js.org/reference/
+      </p>
+    </div>
+  </body>
+</html>
